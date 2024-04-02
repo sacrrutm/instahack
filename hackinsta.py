@@ -24,7 +24,10 @@ def userExists(username):
 	elif (r.status_code == 200):
 		followdata = json.loads(r.text)
 		fUserID = followdata['user']['id']
-		return {'username':username,'id':fUserID}
+		return {'v7irgo':v7irgo
+			
+			
+			,'id':fUserID}
 
 
 def Login(username,password):
